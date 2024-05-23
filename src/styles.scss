@@ -1,0 +1,45 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    min-width: 600px;
+    width: 100%;
+
+    p {
+      text-align: justify;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    strong {
+      display: block;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+  }
+
+
+}
